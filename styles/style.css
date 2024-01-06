@@ -99,8 +99,123 @@ li {
     font-size: 25px;
     font-weight: 500;
 }
-.plans-container{
+
+.plans-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 107px;
+}
+
+.plan-a,
+.plan-b,
+.plan-c,
+.plan-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.branding_area {
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 1140px;
+}
+
+.callNowbutton {
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    margin-left: 64px;
+    margin-top: 77px;
+    padding: 20px 36px;
+}
+
+.branding-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 19px;
+    margin-left: 64px;
+}
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #151414;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.future-text {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future-contnet {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.future-email {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.subscribe-text {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+.subscribe-area label{
+    display: block;
+
+}
+.subscribe-area label > input[type="email"]{
+    width: 300px;
+    height: 64px;
+    background: var(--Dark-01, #151414);
+    
+    color: white;
+    margin-top: 15px;
+    outline-color: white;
+}
+.subscribe-area label > input::placeholder{
+    padding: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+.subscribe-area{
+    text-align: left;
+}
+.submitbtn{
+    border-radius: 8px;
+    background: #FFF;
+    width: 170px;
+    height: 64px;
+    margin-top: 15px;
+    color: #F15B22;
+    font-size: 20px;
+    border: none;
 }
